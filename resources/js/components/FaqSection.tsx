@@ -54,7 +54,7 @@ export const FaqSection = () => {
         <div className="max-w-3xl mx-auto">
           <div className="space-y-4">
             {faqItems.map((item, index) => <div key={index} className={`bg-slate-900/60 rounded-lg overflow-hidden transition-all duration-300 ${openIndex === index ? 'shadow-lg shadow-amber-900/20' : ''}`}>
-                <button className="w-full px-6 py-4 text-left flex justify-between items-center" onClick={() => toggleItem(index)}>
+                <button className="w-full px-6 py-4 text-left flex justify-between items-center cursor-pointer" onClick={() => toggleItem(index)}>
                   <span className="font-bold text-lg">{item.question}</span>
                   {openIndex === index ? <ChevronUpIcon size={20} className="text-amber-500 flex-shrink-0" /> : <ChevronDownIcon size={20} className="text-amber-500 flex-shrink-0" />}
                 </button>

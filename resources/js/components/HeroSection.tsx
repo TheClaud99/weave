@@ -15,12 +15,12 @@ export const HeroSection = () => {
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <button onClick={() => document.getElementById('pdf')?.scrollIntoView({
             behavior: 'smooth'
-          })} className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition">
+          })} className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition cursor-pointer">
               Scarica il PDF
             </button>
             <button onClick={() => document.getElementById('about')?.scrollIntoView({
             behavior: 'smooth'
-          })} className="bg-transparent hover:bg-slate-700 border border-blue-500 text-blue-500 font-bold py-3 px-6 rounded-md transition">
+          })} className="bg-transparent hover:bg-slate-700 border border-blue-500 text-blue-500 font-bold py-3 px-6 rounded-md transition cursor-pointer">
               Scopri di più
             </button>
           </div>

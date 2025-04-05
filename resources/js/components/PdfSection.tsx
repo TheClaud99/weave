@@ -32,7 +32,7 @@ export const PdfSection = () => {
                 </div>
               </div>
               <div>
-                <button type="submit" className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-3 px-6 rounded-md transition">
+                <button type="submit" className="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-3 px-6 rounded-md transition cursor-pointer">
                   Ricevi il PDF
                 </button>
               </div>

@@ -34,25 +34,25 @@ export const Header = () => {
         </button>
         {/* Desktop navigation */}
         <nav className="hidden md:flex space-x-6">
-          <button onClick={() => scrollToSection('home')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('home')} className="text-white hover:text-amber-400 transition cursor-pointer">
             Home
           </button>
-          <button onClick={() => scrollToSection('about')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('about')} className="text-white hover:text-amber-400 transition cursor-pointer">
             Cosa è Weave
           </button>
-          <button onClick={() => scrollToSection('rules')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('rules')} className="text-white hover:text-amber-400 transition cursor-pointer">
             Regole
           </button>
-          <button onClick={() => scrollToSection('setting')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('setting')} className="text-white hover:text-amber-400 transition cursor-pointer">
             Ambientazione
           </button>
-          <button onClick={() => scrollToSection('pdf')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('pdf')} className="text-white hover:text-amber-400 transition cursor-pointer">
             PDF
           </button>
-          <button onClick={() => scrollToSection('faq')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('faq')} className="text-white hover:text-amber-400 transition cursor-pointer">
             FAQ
           </button>
-          <button onClick={() => scrollToSection('team')} className="text-white hover:text-amber-400 transition">
+          <button onClick={() => scrollToSection('team')} className="text-white hover:text-amber-400 transition cursor-pointer">
             Chi Siamo
           </button>
         </nav>
@@ -60,25 +60,25 @@ export const Header = () => {
       {/* Mobile navigation */}
       {isMenuOpen && <div className="md:hidden bg-slate-800 w-full">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <button onClick={() => scrollToSection('home')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('home')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('about')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               Cosa è Weave
             </button>
-            <button onClick={() => scrollToSection('rules')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('rules')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               Regole
             </button>
-            <button onClick={() => scrollToSection('setting')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('setting')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               Ambientazione
             </button>
-            <button onClick={() => scrollToSection('pdf')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('pdf')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               PDF
             </button>
-            <button onClick={() => scrollToSection('faq')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('faq')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               FAQ
             </button>
-            <button onClick={() => scrollToSection('team')} className="text-white hover:text-amber-400 transition text-left">
+            <button onClick={() => scrollToSection('team')} className="text-white hover:text-amber-400 transition text-left cursor-pointer">
               Chi Siamo
             </button>
           </div>
