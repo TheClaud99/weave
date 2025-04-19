@@ -14,7 +14,7 @@ export const TeamSection = () => {
   }, {
     name: 'Samuele Soddu',
     role: 'Game Designer',
-    bio: 'Imprenditore nel settore del Marmo da oltre 5 anni, Game Designer amatoriale per passione da oltre 10 anni ed Ex Game Designer presso Monumenta MMO come lead degli encounter e bilanciamento dal 2017 fino al 2022.',
+    bio: 'Imprenditore nel settore del marmo da oltre 5 anni, Game Designer amatoriale per passione da oltre 10 anni ed Ex Game Designer presso Monumenta MMO come lead degli encounter e bilanciamento dal 2017 fino al 2022.',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
   }];
   return <section id="team" className="py-20 bg-slate-900">
